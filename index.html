@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/destyle.css@4.0.1/destyle.min.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOODENSTUDIO</title>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <h1><img src="./img/woodenStudio_logo.png" alt="woodenstudioのロゴ" class="header__logo"></h1>
+            <nav class="nav">
+                <!-- ナビゲーションメニュー -->
+                <ul class="nav-menu">
+                    <li class="nav-menu__link"><a href="#concept">CONSEPT</a></li>
+                    <li class="nav-menu__link"><a href="#works">WORKS</a></li>
+                    <li class="nav-menu__link"><a href="#news">NEWS</a></li>
+                    <li class="nav-menu__link"><a href="#showroom">SHOW ROOM</a></li>
+                    <li class="nav-menu__link"><a href="#" class="fa-brands fa-instagram"></a></li>
+                </ul>                
+                <!-- お問い合わせボタン -->
+                <a href="" class="btn btn--fill">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>お問い合わせ</p>
+                </a>
+            </nav>
+            <!-- ハンバーガーメニュー -->
+            <div class="ham">
+                <div class="ham-icon">
+                    <div class="ham__border"></div>
+                    <div class="ham__border"></div>
+                    <div class="ham__border"></div>
+                </div>
+                <div class="ham__menu">MENU</div>
+            </div>
+    </header>
+
+    <!-- ヒーローエリア -->
+    <div class="hero"></div>
+
+    <!-- コンセプト -->
+    <section id="concept" class="section concept">
+        <div class="concept-conteiner">
+            <div class="concept-first">
+                <div class="column-left">
+                    <div class="section-head section-head-brown">
+                        <h2 class="section-head__ja">私たちの家具</h2>
+                        <h2 class="section-head__en">CONSECTP</h2>
+                    </div>
+                    <div class="concept-content">
+                        <h3 class="concept-content__head">家具と共に時を過ごす</h3>
+                        <p class="concept-content__text">
+                            家具だけど、まるで家族みたいなかけがえのない存在。<br class='sp-none'>
+                            私たちのつくる家具はあなたや家族と共に時を重ねるにつれて、<br class='sp-none'>
+                            味わい深く変化していきます。<br>
+                            楽しい時も悲しい時もいつもそばにいてくれる。<br>
+                            かけがえのない家族の一員となってくれることでしょう。
+                        </p>
+                    </div>
+                </div>
+                <div class="column-right">
+                    <img src="./img/photo02.jpg" alt="収納家具の写真" class="column-right__photo">
+                    <img src="./img/photo03.jpg" alt="" class="column-right__photo">
+                </div>
+            </div>
+            <div class="concept-second">
+                <div class="column-reft">
+                    <img src="./img/photo04.jpg" alt="テーブルと収納家具の写真" class="column-left__photo">
+                </div>
+                <div class="column-right">
+                    <div class="concept-content">
+                        <h3 class="concept-content__head">オーダーメイドの家具屋さん</h3>
+                        <p class="concept-content__text">
+                            私たちの家具は、完全オーダーメイドでご提供いたします。<br>
+                            厳選された素材と、熟練の職人たちの卓越した技によって、<br>
+                            一つひとつ丹念に作り上げられた家具。<br>
+                            日常に特別な輝きを添える、世界にひとつだけの作品をお届けします。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        
+    </footer>
+
+    <!-- CDN gsap -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
